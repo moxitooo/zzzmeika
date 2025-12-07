@@ -32,7 +32,8 @@ const GAME_CONFIG = {
 // ==================== КЛАСС БАЗЫ ДАННЫХ SQLite ====================
 class Database {
     constructor() {
-        this.dbPath = path.join(__dirname, 'records.db');
+        // this.dbPath = path.join(__dirname, 'records.db');
+        this.dbPath = ':memory:';
         this.db = null;
         this.init();
     }
@@ -733,7 +734,7 @@ const server = http.createServer((req, res) => {
         return;
     }
 
-    let filePath = pathname === '/' ? '/verstka.html' : pathname;
+    let filePath = pathname === '/' ? 'public/verstka.html' : pathname;
     filePath = path.join(__dirname, filePath);
     
     fs.access(filePath, fs.constants.F_OK, (err) => {
