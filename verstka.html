@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Змейка Мультиплеер</title>
+    <link rel="stylesheet" href="obertka.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🐍 ЗМЕЙКА МУЛЬТИПЛЕЕР</h1>
+            <p class="subtitle">Играй с друзьями в реальном времени!</p>
+            <div class="game-mode-selector">
+    
+</div>
+        </header>
+
+        <div class="game-area">
+            <div class="game-section">
+                <canvas id="gameCanvas" width="400" height="400"></canvas>
+                
+                <div class="stats">
+                    <div class="score">
+                        <div>ТВОЙ СЧЕТ</div>
+                        <div class="score-value" id="score">0</div>
+                    </div>
+                    <div class="high-score">
+                        <div>ОНЛАЙН</div>
+                        <div class="high-score-value" id="onlineCount">0</div>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <button id="connectBtn">🎮 ПОДКЛЮЧИТЬСЯ К ИГРЕ</button>
+                    
+                    <div class="action-buttons">
+                        <button id="restartButton">🔄 ЗАНОВО</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <!-- Панель игроков -->
+                <div class="panel">
+                    <h3>👥 ИГРОКИ ОНЛАЙН</h3>
+                    <div class="players-online">
+                        Подключено: <span id="playersCount">0</span> игроков
+                    </div>
+                    <div class="players-list" id="playersList">
+                        <div class="player-item">
+                            <span class="player-name">Ожидание игроков...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Панель рекордов -->
+                <div class="panel">
+                    <h3>🏆 ТАБЛИЦА РЕКОРДОВ</h3>
+                    <div class="records-list" id="recordsList">
+                        <div style="text-align: center; color: #ccc; padding: 20px;">
+                            Загрузка рекордов...
+                        </div>
+                    </div>
+                    <button id="refreshRecords">🔄 ОБНОВИТЬ РЕКОРДЫ</button>
+                </div>
+
+                <!-- Чат -->
+                <div class="panel">
+                    <h3>💬 ЧАТ</h3>
+                    <div class="chat-messages" id="chatMessages">
+                        <div style="text-align: center; color: #ccc; padding: 20px;">
+                            Добро пожаловать в чат!
+                        </div>
+                    </div>
+                    <div class="chat-input">
+                        <input type="text" id="chatInput" placeholder="Напишите сообщение...">
+                        <button id="sendChatBtn">📤</button>
+                    </div>
+                </div>
+
+                <!-- Инструкция -->
+                <div class="panel instructions">
+                    <h3>🎮 УПРАВЛЕНИЕ</h3>
+                    <p>← ↑ → ↓ - Движение змейки</p>
+                    <p>Подключайся и играй с друзьями!</p>
+                    
+                    <div class="food-types">
+                        <div class="food-item">
+                            <div class="food-color" style="background-color: #FF4444;"></div>
+                            <span>Яблоко - 10 очков</span>
+                        </div>
+                        <div class="food-item">
+                            <div class="food-color" style="background-color: #FFAA00;"></div>
+                            <span>Апельсин - 20 очков</span>
+                        </div>
+                        <div class="food-item">
+                            <div class="food-color" style="background-color: #FFFF00;"></div>
+                            <span>Банан - 15 очков</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Информация о сервере -->
+                <div class="panel server-info">
+                    <h4>🌐 ИНФОРМАЦИЯ О СЕРВЕРЕ</h4>
+                    <div class="connection-status">
+                        <div class="status-dot" id="statusDot"></div>
+                        <span id="statusText">Не подключено</span>
+                    </div>
+                    <div id="serverAddress" style="font-size: 0.9rem; color: #ccc;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Экран смерти -->
+        <div class="game-over" id="gameOver">
+            <h2>💀 ВЫ УМЕРЛИ!</h2>
+            <p>Ваш счет: <span id="finalScore">0</span> очков</p>
+            <button id="playAgainButton">🎯 ИГРАТЬ СНОВА</button>
+        </div>
+    </div>
+
+    <script src="dvijok.js"></script>
+</body>
+</html>

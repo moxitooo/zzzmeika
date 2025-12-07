@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1762704959434,
+    "player_name": "Игрок697",
+    "score": 405,
+    "snake_length": 28,
+    "game_duration": 0,
+    "food_eaten": 40,
+    "created_at": "2025-11-09T16:15:59.434Z"
+  },
+  {
+    "id": 1762704960976,
+    "player_name": "Игрок697",
+    "score": 405,
+    "snake_length": 28,
+    "game_duration": 0,
+    "food_eaten": 40,
+    "created_at": "2025-11-09T16:16:00.976Z"
+  },
+  {
+    "id": 1762704961296,
+    "player_name": "Игрок697",
+    "score": 405,
+    "snake_length": 1,
+    "game_duration": 0,
+    "food_eaten": 40,
+    "created_at": "2025-11-09T16:16:01.296Z"
+  },
+  {
+    "id": 1762704962019,
+    "player_name": "Игрок697",
+    "score": 405,
+    "snake_length": 1,
+    "game_duration": 0,
+    "food_eaten": 40,
+    "created_at": "2025-11-09T16:16:02.019Z"
+  },
+  {
+    "id": 1762705216464,
+    "player_name": "Игрок697",
+    "score": 350,
+    "snake_length": 21,
+    "game_duration": 0,
+    "food_eaten": 35,
+    "created_at": "2025-11-09T16:20:16.464Z"
+  },
+  {
+    "id": 1762705216478,
+    "player_name": "Игрок697",
+    "score": 350,
+    "snake_length": 21,
+    "game_duration": 0,
+    "food_eaten": 35,
+    "created_at": "2025-11-09T16:20:16.478Z"
+  },
+  {
+    "id": 1762705218359,
+    "player_name": "Игрок697",
+    "score": 350,
+    "snake_length": 1,
+    "game_duration": 0,
+    "food_eaten": 35,
+    "created_at": "2025-11-09T16:20:18.359Z"
+  },
+  {
+    "id": 1762705219341,
+    "player_name": "Игрок697",
+    "score": 350,
+    "snake_length": 1,
+    "game_duration": 0,
+    "food_eaten": 35,
+    "created_at": "2025-11-09T16:20:19.341Z"
+  },
+  {
+    "id": 1762705000681,
+    "player_name": "Игрок697",
+    "score": 305,
+    "snake_length": 20,
+    "game_duration": 0,
+    "food_eaten": 30,
+    "created_at": "2025-11-09T16:16:40.681Z"
+  },
+  {
+    "id": 1762705002363,
+    "player_name": "Игрок697",
+    "score": 305,
+    "snake_length": 20,
+    "game_duration": 0,
+    "food_eaten": 30,
+    "created_at": "2025-11-09T16:16:42.363Z"
+  },
+  {
+    "id": 1762705002381,
+    "player_name": "Игрок697",
+    "score": 305,
+    "snake_length": 1,
+    "game_duration": 0,
+    "food_eaten": 30,
+    "created_at": "2025-11-09T16:16:42.381Z"
+  },
+  {
+    "id": 1762705003474,
+    "player_name": "Игрок697",
+    "score": 305,
+    "snake_length": 1,
+    "game_duration": 0,
+    "food_eaten": 30,
+    "created_at": "2025-11-09T16:16:43.474Z"
+  },
+  {
+    "id": 1762696439865,
+    "player_name": "344",
+    "score": 110,
+    "snake_length": 7,
+    "game_duration": 15,
+    "food_eaten": 6,
+    "created_at": "2025-11-09T13:53:59.865Z"
+  },
+  {
+    "id": 1762696484467,
+    "player_name": "342342",
+    "score": 55,
+    "snake_length": 5,
+    "game_duration": 7,
+    "food_eaten": 4,
+    "created_at": "2025-11-09T13:54:44.467Z"
+  }
+]
